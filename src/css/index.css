@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/* .cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* .eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  font-family: "Cinzel", serif !important;
+  font-size: 250%;
+}
+
+.ironThroneNav {
+  max-height: 150px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(0, 3, 31) !important;
+}
+
+h1 {
+  font-family: "Cinzel", serif !important;
+  line-height: 1.1;
+  color: bisque !important;
+  padding-top: 20px ;
+}
+
+h2, h3 {
+  font-family: "EB Garamond", serif !important;
+  color: bisque !important;
+}
+
+.footer {
+  color: bisque !important;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.footerLink {
+  color: bisque;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.searchInput {
+  width: 80% !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
