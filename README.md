@@ -1,3 +1,7 @@
+Small Game of Thrones Reference Page made in Winter 2025 while studying at NSCC (IT Programming)
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
